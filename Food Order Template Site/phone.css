@@ -1,0 +1,83 @@
+/* NAV BAR */
+#navBar{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#logo img {
+    height: 38px;
+    width: 46px;
+ }
+
+ /* list styling */
+#navBar ul{
+    margin: 2px 15px;
+}
+
+#navBar ul li{
+    /* color: white; */
+    list-style: none;       
+}
+
+#navBar ul li a{
+    font-size: 1.2rem;
+    margin: 3px 5px;
+}
+
+
+
+
+
+/* HOME SECTION */
+
+#home{
+    padding: 1px 8px;
+    height: 287px;
+}
+
+#home h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#home p{
+    padding: 1px;
+    font-size: 1.1rem;  
+}
+
+
+
+
+
+/* SERVICES SECTION */
+
+#services {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* CLINT SECTION */
+
+#clints{
+    flex-direction: column;
+    }
+
+#clints::before{
+    height: 500px;
+}
+
+
+
+
+
+
+/* CONTACT SECTION */
+
+
+
+

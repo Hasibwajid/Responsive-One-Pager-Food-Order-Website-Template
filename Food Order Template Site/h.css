@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/* NAV BAR */
+#navBar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+#navBar::before{
+    content: "";
+    background-color: rgb(29, 24, 24);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+
+
+
+
+
+/* logo and img */
+#logo img {
+    display: block;
+    height: 58px;
+    width: 66px;
+    justify-items: center;
+    border-radius: 90px;
+
+
+    
+ }
+#logo img:hover {
+    border: 2px solid red;
+
+
+    
+ }
+
+
+
+
+
+ /* list styling */
+#navBar ul{
+    display: flex;
+    margin: 0px 30px;
+}
+
+#navBar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.5rem;
+        
+}
+#navBar ul li a{
+    color: white;
+    display: block;
+    padding: 2px 8px;
+    margin: 3px 5px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#navBar ul li :hover{
+    /* background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red; */
+    background-color: #FFD700;
+    border: 2px solid white;
+
+}
+
+
+.join-btn {
+    position: absolute;
+    right: 10px; /* Add some space between the last item and 'Join' button */
+    /* Add additional styling as needed */
+}
+
+/* Example styling for the 'Join' button */
+.join-btn a {
+    padding: 8px 16px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join-btn a:hover {
+    background-color: #FFD700;
+    /* Additional hover effects */
+}
+
+
+
+
+
+/* HOME SECTION */
+
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 41px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 448px;
+    margin-bottom: 5px;
+
+}
+/* BEFORE SEODO SELECTOR FOR SETTING BG OF SECTION */
+
+#home::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url('imgs/4.jpg') no-repeat center center / cover;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+   
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home .btn{
+    /* background-color: rgb(92, 8, 8);
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+    padding: 8px 16px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;}
+#home .btn:hover{
+    /* background-color: white;
+    color: black;
+    border: 2px solid red;
+    font-family:'Times New Roman', Times, serif; */
+    background-color: #FFD700;
+
+}
+
+
+
+
+
+
+
+
+/* SERVICES SECTIPON */
+#services{
+    display: flex;
+
+}
+.services{
+   
+   
+}
+
+#services .box{
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin: 6px 10px;
+    border-radius: 10px;
+    background: #ebe9e9;
+    color: black;
+    
+}
+#services .box:hover{
+    border: 2px solid red;
+    background-color: white;
+    
+    
+}
+#services .box img{
+    height: 160px;
+    width: 95%;
+    margin: auto;
+    display: block;
+    border-radius: 70px;
+}
+#services .box h2{
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#services .box p{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+/* CLint section */
+#clints-section{
+    height: 400px;
+    position: relative;
+   
+}
+#clints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px ;
+
+}
+#clints::before{
+    content: "";
+    position: absolute;
+    background: url('imgs/bg2.jpeg') no-repeat center center/ cover;
+    opacity: 0.5px;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+
+}
+.clint-items{
+    margin: 30px;
+
+}
+
+#clints img{
+    height: 150px;
+
+}
+#clints img:hover{
+    border: 2px solid red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT SECTION */
+#contact{
+    height: 490px;
+}
+
+#contactBox{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+
+}
+#contactBox::before{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:450px;
+    z-index: -1;
+    opacity: 0.7;
+    /* background-color: rgb(235 233 233); */
+    background: url('imgs/contactsbg.jpeg') no-repeat center center/ cover; 
+
+
+}
+
+#contactBox input,
+#contactBox textarea{
+    border-radius: 5px;
+    width: 100%;
+    padding: 3px;
+}
+
+#contactBox form{
+    width: 45%;
+}
+
+#contactBox label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contactBox.formGroup{
+    margin: 5px;
+}
+
+
+
+
+
+#footer{
+    width: 100%;
+    margin-top: 34px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+/* UTILITY CLASSES */
+.h-primary{
+    font-size: 1.8rem;
+    padding: 10px 3px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 6px 4px;
+}
+
+.h-secondary{
+    font-size: 1.4rem;
+
+}
+    
